@@ -19,6 +19,6 @@ for (let i = 0; i < 5; i++) {
 	else computerScore++;
 
 }
-if (userScore > computerScore) console.log(`You win with the score of ${userScore} vs computer's ${computerScore}`);
-else if (userScore < computerScore) console.log(`You lose with the score of ${userScore} vs computer's ${computerScore}`);
+if (userScore > computerScore) console.log(`You won with the score of ${userScore} vs computer's ${computerScore}`);
+else if (userScore < computerScore) console.log(`You lost with the score of ${userScore} vs computer's ${computerScore}`);
 else console.log(`It's a tie with your and computer's score of ${userScore}!`);
